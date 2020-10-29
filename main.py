@@ -5,10 +5,8 @@
 ############################
 '''
 from PIL import Image
-import string
-import math
-import sys
-import getopt
+import string, math
+import sys, getopt
 '''
 ############################
 # Load attributes
