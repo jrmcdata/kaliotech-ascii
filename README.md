@@ -9,13 +9,16 @@ kalio-ASCII generates ASCII art from any image file.
 Options
 -------
 
-> -h	Prints help..
+> -h	Prints help.
 
 > -i	Input image file.
 
 > -l	Number of lines for ASCII art (defaults to minimum of image height/2 or 75).
+
 > -o	Output file for ASCII art (defaults to IMAGE_NAME.txt).
+
 > -s	Source file for letter-map file (defaults to 'map/letter_map_default.txt').
+
 > -v	Verbose: print status and diagnostics.
 
 Usage
