@@ -1,13 +1,10 @@
-kalio-ascii: an ASCII art generator (v1.00)
-===========================================
+#kalio-ascii: an ASCII art generator
 
-Introduction
-------------
+##Introduction
 
 kalio-ASCII generates ASCII art from any image file.
 
-Options
--------
+##Options
 
 > -h	Prints help.
 
@@ -21,14 +18,15 @@ Options
 
 > -v	Verbose: print status and diagnostics.
 
-Usage
------
-> ./kalio-ascii.py -i file_name.jpg -l 100 -v
+##Usage
+
+```
+./kalio-ascii.py -i file_name.jpg -l 100 -v
+```
 
 Generates a text file 'file_name.txt', containing ASCII art from 'file_name.jpg'on a 100-line grid. Allow verbose output. 
 
-To-do
------
+##To-do
 
 - [ ] Refactor map-generator script to allow for custom monospace fonts.
 - [ ] Extend map-generator script for non-monospace fonts.
