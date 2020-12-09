@@ -23,9 +23,8 @@ Options
 
 Usage
 -----
-./kalio-ascii.py -i file_name.jpg -l 100 -v
-
-> Generates a text file 'file_name.txt', containing ASCII art from 'file_name.jpg'on a 100-line grid. Allow verbose output. 
+> ./kalio-ascii.py -i file_name.jpg -l 100 -v
+Generates a text file 'file_name.txt', containing ASCII art from 'file_name.jpg'on a 100-line grid. Allow verbose output. 
 
 To-do
 -----
