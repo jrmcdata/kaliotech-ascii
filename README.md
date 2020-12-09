@@ -13,7 +13,6 @@ kalio-ASCII generates ASCII art from any image file.
 -o		Output file for ASCII art (defaults to IMAGE_NAME.txt).
 -s		Source file for letter-map file (defaults to 'map/letter_map_default.txt').
 -v		Verbose: print status and diagnostics.
-
 ```
 
 ## Usage
