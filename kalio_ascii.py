@@ -24,8 +24,6 @@ except:
 	print('[\033[31mERROR\033[39m] Malformed expression. Use -h option for help.')
 	sys.exit()
 
-'''print(iniArguments)'''
-
 # PARSE VALUES
 
 # Help file
@@ -85,11 +83,6 @@ except:
 	customLines = False
 
 
-'''
-print(outFile)
-print(noLines)
-print(inLetters)
-'''
 '''
 ############################
 # Load image
@@ -153,8 +146,7 @@ for nn in range(0,sizeImage[0]) ]) for kk in range(0, noLines) ]
 if doVerbose:
 	print('[\033[95mWRITE\033[39m] Outputting to \033[96m' + str(outFile) + '\033[39m')
 
-ff = open( outFile,'w')
-for xx in letterImage:
-	ff.write(xx + '\n')
+with open( outFile,'w') as fileOut:
+	for xx in letterImage:
+		fileOut.write(xx + '\n')
 
-ff.close()
